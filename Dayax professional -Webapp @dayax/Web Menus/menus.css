@@ -1,0 +1,60 @@
+    ul{
+		list-style-type:none;
+		font-size:32px;
+		font-family:verdana;
+		margin:10px;
+	}
+	.mains{
+		margin: 0px;
+	}
+	nav{
+		margin:0px;
+		background-color:lightgray;
+		box-shadow:0px 2px 0px #023333; 
+		width: 20%;
+		height: 100%;
+	}
+	span.dropBottom,span.dropRight{ 
+		display: block;
+		box-shadow:inset 2px 0px 0px #FF9;
+		position: absolute;
+		left: 0px;
+		top: 0px; 
+		} 
+	span.dropBottom{ 
+		box-shadow:inset 0px 0px 0px #FF9;
+		position: absolute;
+		bottom: 0px; 
+		} 
+	li a {
+		display: block;
+		color: #000;
+		padding: 0px;
+		text-decoration: none;
+		}
+		
+		li a.active {
+		background-color: #4CAF50;
+		color: white;
+		}
+		
+		li a:hover:not(.active) {
+		background-color: #555;
+		color: white;
+		}
+		#mainul{
+		margin-bottom:10px;
+		}
+/* 
+ there is a style you can use for your menus
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  height: 100%; /* Full height 
+  position: fixed; /* Make it stick, even on scroll 
+  overflow: auto; /* Enable scrolling if the sidenav has too much content 
+
+*
